@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right,rgb(227, 251, 251),
+    rgba(238, 239, 249, 0.877),rgb(223, 239, 242));  
+
+
+}
+.container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+     background: linear-gradient(to right,rgb(251, 213, 191),
+    rgba(252, 242, 249, 0.877),rgb(255, 242, 210)); 
+   
+    border-radius: 0.5rem;
+    text-align: center;
+    border: 1px solid rgb(22, 71, 91);
+    
+  }
+  label{font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(81, 105, 2);
+}
+ 
+  input {
+    padding: 15px;
+    width: 65%;
+    margin-bottom: 8px;
+    margin-top: 13px;
+  }
+h1{
+    color: rgb(49, 16, 92);
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 3.5rem;
+    line-height: 3.8rem;
+}
+#result{
+    color: rgb(103, 9, 87);
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 3.5rem;
+    margin-top: 2rem;
+   padding: 0 6rem;
+   letter-spacing: normal;
+   margin-top: 10px;
+  
+}
+button{
+    cursor: pointer;
+    border:yellow;
+    border-radius: 0.5rem;
+    background-color: rgb(204, 184, 129);
+    height: 3rem;
+    width: 8rem;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: rgb(113, 13, 13);
+}
+
+
+
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem; 
+    }
+    label{
+        font-size: 1.2rem;
+        padding: 0.6rem;
+    }
+
+    button {
+        padding: 0.5rem; 
+        width: 100%; 
+    }
+}
+
+@media (max-width: 400px) {
+    #container {
+        padding: 1rem; 
+    }
+
+    input {
+        padding: 0.4rem; 
+        font-size: 0.9rem; 
+    }
+
+    h1 {
+        font-size: 1.3rem; 
+    }
+    label{
+        font-size: 1rem;
+        padding: 0.4rem;
+    }
+    button {
+        font-size: 0.9rem;
+    }
+}
